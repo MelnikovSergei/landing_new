@@ -1,0 +1,33 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "First landing",
+  "main": "index.js",
+  "dependencies": {
+    "font-awesome": "^4.7.0",
+    "normalize.scss": "^0.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "gulp-pug": "^4.0.1",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2",
+    "gulp.spritesmith": "^6.9.0",
+    "rimraf": "^2.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MelnikovSergei/landing_new.git"
+  },
+  "author": "sergei.melnikov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MelnikovSergei/landing_new/issues"
+  },
+  "homepage": "https://github.com/MelnikovSergei/landing_new#readme"
+}
