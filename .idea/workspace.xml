@@ -2,14 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="def1c497-fec9-4e6e-9067-ced70e25f5f9" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/styles/global/icons.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/styles/sections/title.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/template/sections/about.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/styles/sections/approuch.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/styles/global/sprite.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/sections/about.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/styles/global/fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/global/fonts.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/styles/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/source/styles/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/template/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/source/template/index.pug" afterDir="false" />
     </list>
@@ -28,11 +27,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="index.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/template/index.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-9">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="about.pug" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/template/sections/about.pug">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            <state relative-caret-position="-9">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
             </state>
           </provider>
         </entry>
@@ -40,7 +48,7 @@
       <file leaf-file-name="about.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/sections/about.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
+            <state relative-caret-position="-7">
               <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
             </state>
           </provider>
@@ -55,11 +63,47 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="icons.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="approach.pug" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/template/sections/approach.pug">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="731">
+              <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="approuch.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/source/styles/sections/approuch.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="776">
+              <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="vars.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/styles/global/vars.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fonts.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/styles/global/fonts.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="icons.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/global/icons.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            <state relative-caret-position="-7">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -67,26 +111,8 @@
       <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/styles/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="564">
-              <caret line="64" column="36" selection-start-line="64" selection-start-column="36" selection-end-line="64" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sprite.scss" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/styles/global/sprite.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+            <state relative-caret-position="-7">
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
@@ -123,7 +149,6 @@
         <option value="$PROJECT_DIR$/source/styles/global/button.scss" />
         <option value="$PROJECT_DIR$/source/styles/sections/header.scss" />
         <option value="$PROJECT_DIR$/source/styles/global/mixins.scss" />
-        <option value="$PROJECT_DIR$/source/styles/global/fonts.scss" />
         <option value="$PROJECT_DIR$/source/styles/global/vars.scss" />
         <option value="$PROJECT_DIR$/source/template/sections/contact.pug" />
         <option value="$PROJECT_DIR$/source/template/sections/header.pug" />
@@ -131,14 +156,17 @@
         <option value="$PROJECT_DIR$/source/template/sections/navigation.pug" />
         <option value="$PROJECT_DIR$/source/template/sections/hero.pug" />
         <option value="$PROJECT_DIR$/source/styles/sections/hero.scss" />
-        <option value="$PROJECT_DIR$/source/template/index.pug" />
         <option value="$PROJECT_DIR$/source/template/sections/about.pug" />
         <option value="$PROJECT_DIR$/source/styles/sections/about.scss" />
-        <option value="$PROJECT_DIR$/source/styles/sections/title.scss" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/source/styles/global/icon.scss" />
-        <option value="$PROJECT_DIR$/source/styles/main.scss" />
         <option value="$PROJECT_DIR$/source/styles/global/icons.scss" />
+        <option value="$PROJECT_DIR$/source/styles/sections/title.scss" />
+        <option value="$PROJECT_DIR$/source/template/index.pug" />
+        <option value="$PROJECT_DIR$/source/styles/main.scss" />
+        <option value="$PROJECT_DIR$/source/template/sections/approach.pug" />
+        <option value="$PROJECT_DIR$/source/styles/global/fonts.scss" />
+        <option value="$PROJECT_DIR$/source/styles/sections/approuch.scss" />
       </list>
     </option>
   </component>
@@ -158,7 +186,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1913" />
-    <option name="width" value="1095" />
+    <option name="width" value="714" />
     <option name="height" value="1087" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -184,31 +212,18 @@
               <item name="landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
               <item name="build" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
+              <item name="fonts" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing" type="b2602c69:ProjectViewProjectNode" />
               <item name="landing" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
               <item name="styles" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="landing" type="b2602c69:ProjectViewProjectNode" />
-              <item name="landing" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="styles" type="462c0819:PsiDirectoryNode" />
-              <item name="global" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="landing" type="b2602c69:ProjectViewProjectNode" />
@@ -243,7 +258,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.Pug/Jade" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/README.md" />
   </component>
   <component name="RecentsManager">
@@ -262,6 +277,9 @@
         </RuleState>
       </list>
     </option>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="AUTOSCROLL_FROM_SOURCE" value="true" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -282,25 +300,25 @@
       <workItem from="1554130972119" duration="6749000" />
       <workItem from="1554205788112" duration="732000" />
       <workItem from="1554282854263" duration="7697000" />
-      <workItem from="1554377105214" duration="3510000" />
+      <workItem from="1554377105214" duration="9752000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="48477000" />
+    <option name="totallyTimeSpent" value="54719000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1913" y="0" width="943" height="1087" extended-state="0" />
+    <frame x="1913" y="0" width="883" height="1087" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48812094" visible="true" weight="0.29392266" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.48812094" visible="true" weight="0.3147929" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32937366" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info id="Structure" order="1" sideWeight="0.511879" side_tool="true" visible="true" weight="0.29392266" />
+      <window_info id="Structure" order="1" sideWeight="0.511879" side_tool="true" visible="true" weight="0.3147929" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.34557235" />
       <window_info id="Favorites" order="2" sideWeight="0.50165015" side_tool="true" weight="0.31835565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
@@ -320,20 +338,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/styles/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build/css/main.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="459">
@@ -485,13 +489,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/global/vars.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/sections/header.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
@@ -517,13 +514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="21" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/global/fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="21" selection-start-line="11" selection-start-column="21" selection-end-line="11" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -568,31 +558,10 @@
     <entry file="file://$PROJECT_DIR$/build/images/sprite.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/sections/about.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/template/index.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/global/button.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="4" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/template/sections/about.pug">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -611,8 +580,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/styles/global/sprite.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
+        <state relative-caret-position="-7">
           <caret line="29" column="8" selection-start-line="29" selection-start-column="8" selection-end-line="29" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/global/icons.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/sections/about.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="30" column="1" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/template/sections/about.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/template/index.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-9">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/template/sections/approach.pug">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="731">
+          <caret line="43" column="36" selection-start-line="43" selection-start-column="36" selection-end-line="43" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -623,17 +634,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/main.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/global/fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        <state relative-caret-position="510">
+          <caret line="30" column="1" lean-forward="true" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/styles/global/icons.scss">
+    <entry file="file://$PROJECT_DIR$/source/styles/global/vars.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        <state relative-caret-position="85">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/styles/sections/approuch.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="776">
+          <caret line="92" column="1" lean-forward="true" selection-start-line="92" selection-start-column="1" selection-end-line="92" selection-end-column="1" />
         </state>
       </provider>
     </entry>
