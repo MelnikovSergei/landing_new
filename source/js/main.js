@@ -1,0 +1,2 @@
+// run closeOpenForm script
+closeOpenForm();

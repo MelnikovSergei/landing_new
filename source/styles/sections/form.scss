@@ -26,6 +26,9 @@
 
   .arrow-down {
     @include centerer-xy();
+    padding: 15px;
+    color: #fff;
+    cursor: pointer;
 
     .fa {
       font-size: 2.5rem;
@@ -36,7 +39,7 @@
   position: relative;
   width: 67%;
   margin: auto;
-  padding: 50px 50px 66px 50px;
+  padding: 50px 50px 40px 50px;
   border-radius: 3px;
   color: #828282;
   text-align: center;

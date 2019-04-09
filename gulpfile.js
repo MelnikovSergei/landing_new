@@ -4,7 +4,11 @@ const pug = require('gulp-pug');
 const sass = require('gulp-sass');
 const spritesmith = require('gulp.spritesmith');
 const rimraf = require('rimraf');
-const rename = require("gulp-rename");
+const rename = require('gulp-rename');
+const uglify = require('gulp-uglify');
+const concat = require('gulp-concat');
+const sourcemaps = require('gulp-sourcemaps');
+
 
 
 /* --------- Server -----------*/
@@ -22,8 +26,8 @@ gulp.task('server', function() {
 
 
 
-/* ---------- Pug complite ----------- */
-gulp.task('templates:complite', function buildHTML() {
+/* ---------- Pug complete ----------- */
+gulp.task('templates:complete', function buildHTML() {
     return gulp.src('source/template/index.pug')
         .pipe(pug({
             pretty : true
@@ -35,8 +39,8 @@ gulp.task('templates:complite', function buildHTML() {
 
 
 
-/* ---------- Style complite ----------- */
-gulp.task('styles:complite', function () {
+/* ---------- Style complete ----------- */
+gulp.task('styles:complete', function () {
     return gulp.src('source/styles/main.scss')
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(rename('main.min.css'))
@@ -45,6 +49,21 @@ gulp.task('styles:complite', function () {
 
 
 
+
+/* ---------- JS complete ----------- */
+
+gulp.task('js:complete', function(){
+   return gulp.src([
+           'source/js/form.js',
+           'source/js/main.js'
+        ])
+       .pipe(sourcemaps.init())
+       .pipe(concat('main.min.js'))
+       .pipe(uglify())
+       .pipe(sourcemaps.write())
+       .pipe(gulp.dest('build/js'))
+
+});
 
 
 /* ---------- Sprites ----------- */
@@ -85,17 +104,20 @@ gulp.task('copy', gulp.parallel('copy:fonts', 'copy:images'));
 
 /* ------------- Watchers ------------*/
 gulp.task('watch', function () {
-    gulp.watch('source/template/**/*.pug', gulp.series('templates:complite'));
-    gulp.watch('source/styles/**/*.scss', gulp.series('styles:complite'));
+    gulp.watch('source/template/**/*.pug', gulp.series('templates:complete'));
+    gulp.watch('source/styles/**/*.scss', gulp.series('styles:complete'));
+    gulp.watch('source/js/**/*.js', gulp.series('js:complete'));
 });
 
 
-
+/* ------------- Default ------------*/
 gulp.task('default', gulp.series(
     'clean',
-    gulp.parallel('templates:complite', 'styles:complite', 'sprite', 'copy'),
+    gulp.parallel('templates:complete', 'styles:complete', 'js:complete', 'sprite', 'copy'),
     gulp.parallel('watch', 'server')
     )
 );
+
+
 
 
