@@ -9,10 +9,28 @@
     flex-wrap: wrap;
     margin: 0;
     padding: 0 50px;
+
+    @media (max-width: 875px) {
+      justify-content: center;
+    }
   }
+
 
   &__item{
     width: 25%;
+
+    @media (max-width: 875px) {
+      width: 50%;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width:  665px) {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 0;
+    }
   }
 
   &__header{
